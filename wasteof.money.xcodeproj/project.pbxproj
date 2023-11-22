@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37482DD2AF54C3A005B9DCD /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37482DC2AF54C3A005B9DCD /* Messages.swift */; };
+		B39D016F2AE9877E00C61FB5 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D016E2AE9877E00C61FB5 /* Feed.swift */; };
+		B39D01712AEB0DFC00C61FB5 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01702AEB0DFC00C61FB5 /* Explore.swift */; };
+		B39D01732AEB136500C61FB5 /* UserPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01722AEB136500C61FB5 /* UserPreview.swift */; };
+		B39D01752AEB35E200C61FB5 /* YourAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01742AEB35E200C61FB5 /* YourAccount.swift */; };
+		B39D01772AEC041A00C61FB5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01762AEC041A00C61FB5 /* Post.swift */; };
+		B39D01792AEC2BC400C61FB5 /* CommentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01782AEC2BC400C61FB5 /* CommentPreview.swift */; };
 		B3BC2E1A2AE466B400667BF3 /* wasteof_moneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E192AE466B400667BF3 /* wasteof_moneyApp.swift */; };
 		B3BC2E1C2AE466B400667BF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E1B2AE466B400667BF3 /* ContentView.swift */; };
 		B3BC2E1E2AE466B600667BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BC2E1D2AE466B600667BF3 /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 		B3BC2E2C2AE466B600667BF3 /* wasteof_moneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E2B2AE466B600667BF3 /* wasteof_moneyTests.swift */; };
 		B3BC2E362AE466B600667BF3 /* wasteof_moneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E352AE466B600667BF3 /* wasteof_moneyUITests.swift */; };
 		B3BC2E382AE466B600667BF3 /* wasteof_moneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E372AE466B600667BF3 /* wasteof_moneyUITestsLaunchTests.swift */; };
+		B3BC2E452AE4674E00667BF3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E442AE4674E00667BF3 /* LoginView.swift */; };
+		B3BC2E472AE46EFB00667BF3 /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E462AE46EFB00667BF3 /* Homescreen.swift */; };
+		B3BC2E492AE4775600667BF3 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E482AE4775600667BF3 /* Authentication.swift */; };
+		B3BC2E4D2AE8725C00667BF3 /* PostPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E4C2AE8725C00667BF3 /* PostPreview.swift */; };
+		B3BC2E502AE8727900667BF3 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = B3BC2E4F2AE8727900667BF3 /* RichText */; };
+		B3EF4E3A2AEC46C000E613BB /* CommentEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF4E392AEC46C000E613BB /* CommentEditor.swift */; };
+		B3EF4E3D2AEC46D000E613BB /* MarkupEditor in Frameworks */ = {isa = PBXBuildFile; productRef = B3EF4E3C2AEC46D000E613BB /* MarkupEditor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B37482DC2AF54C3A005B9DCD /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		B39D016E2AE9877E00C61FB5 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B39D01702AEB0DFC00C61FB5 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		B39D01722AEB136500C61FB5 /* UserPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreview.swift; sourceTree = "<group>"; };
+		B39D01742AEB35E200C61FB5 /* YourAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourAccount.swift; sourceTree = "<group>"; };
+		B39D01762AEC041A00C61FB5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B39D01782AEC2BC400C61FB5 /* CommentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentPreview.swift; sourceTree = "<group>"; };
 		B3BC2E162AE466B400667BF3 /* wasteof.money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wasteof.money.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BC2E192AE466B400667BF3 /* wasteof_moneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasteof_moneyApp.swift; sourceTree = "<group>"; };
 		B3BC2E1B2AE466B400667BF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +66,11 @@
 		B3BC2E312AE466B600667BF3 /* wasteof.moneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wasteof.moneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BC2E352AE466B600667BF3 /* wasteof_moneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasteof_moneyUITests.swift; sourceTree = "<group>"; };
 		B3BC2E372AE466B600667BF3 /* wasteof_moneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasteof_moneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3BC2E442AE4674E00667BF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B3BC2E462AE46EFB00667BF3 /* Homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homescreen.swift; sourceTree = "<group>"; };
+		B3BC2E482AE4775600667BF3 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		B3BC2E4C2AE8725C00667BF3 /* PostPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPreview.swift; sourceTree = "<group>"; };
+		B3EF4E392AEC46C000E613BB /* CommentEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BC2E502AE8727900667BF3 /* RichText in Frameworks */,
+				B3EF4E3D2AEC46D000E613BB /* MarkupEditor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +125,21 @@
 			children = (
 				B3BC2E192AE466B400667BF3 /* wasteof_moneyApp.swift */,
 				B3BC2E1B2AE466B400667BF3 /* ContentView.swift */,
+				B3BC2E442AE4674E00667BF3 /* LoginView.swift */,
 				B3BC2E1D2AE466B600667BF3 /* Assets.xcassets */,
 				B3BC2E1F2AE466B600667BF3 /* wasteof_money.entitlements */,
 				B3BC2E202AE466B600667BF3 /* Preview Content */,
+				B3BC2E462AE46EFB00667BF3 /* Homescreen.swift */,
+				B3BC2E4C2AE8725C00667BF3 /* PostPreview.swift */,
+				B3BC2E482AE4775600667BF3 /* Authentication.swift */,
+				B39D016E2AE9877E00C61FB5 /* Feed.swift */,
+				B39D01702AEB0DFC00C61FB5 /* Explore.swift */,
+				B39D01722AEB136500C61FB5 /* UserPreview.swift */,
+				B39D01742AEB35E200C61FB5 /* YourAccount.swift */,
+				B39D01762AEC041A00C61FB5 /* Post.swift */,
+				B39D01782AEC2BC400C61FB5 /* CommentPreview.swift */,
+				B3EF4E392AEC46C000E613BB /* CommentEditor.swift */,
+				B37482DC2AF54C3A005B9DCD /* Messages.swift */,
 			);
 			path = wasteof.money;
 			sourceTree = "<group>";
@@ -145,6 +185,10 @@
 			dependencies = (
 			);
 			name = wasteof.money;
+			packageProductDependencies = (
+				B3BC2E4F2AE8727900667BF3 /* RichText */,
+				B3EF4E3C2AEC46D000E613BB /* MarkupEditor */,
+			);
 			productName = wasteof.money;
 			productReference = B3BC2E162AE466B400667BF3 /* wasteof.money.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +261,10 @@
 				Base,
 			);
 			mainGroup = B3BC2E0D2AE466B400667BF3;
+			packageReferences = (
+				B3BC2E4E2AE8727900667BF3 /* XCRemoteSwiftPackageReference "RichText" */,
+				B3EF4E3B2AEC46D000E613BB /* XCRemoteSwiftPackageReference "MarkupEditor" */,
+			);
 			productRefGroup = B3BC2E172AE466B400667BF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +307,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BC2E472AE46EFB00667BF3 /* Homescreen.swift in Sources */,
+				B3EF4E3A2AEC46C000E613BB /* CommentEditor.swift in Sources */,
+				B39D01772AEC041A00C61FB5 /* Post.swift in Sources */,
+				B37482DD2AF54C3A005B9DCD /* Messages.swift in Sources */,
+				B3BC2E4D2AE8725C00667BF3 /* PostPreview.swift in Sources */,
+				B39D01752AEB35E200C61FB5 /* YourAccount.swift in Sources */,
+				B39D01792AEC2BC400C61FB5 /* CommentPreview.swift in Sources */,
+				B3BC2E452AE4674E00667BF3 /* LoginView.swift in Sources */,
+				B39D016F2AE9877E00C61FB5 /* Feed.swift in Sources */,
 				B3BC2E1C2AE466B400667BF3 /* ContentView.swift in Sources */,
+				B39D01732AEB136500C61FB5 /* UserPreview.swift in Sources */,
+				B3BC2E492AE4775600667BF3 /* Authentication.swift in Sources */,
 				B3BC2E1A2AE466B400667BF3 /* wasteof_moneyApp.swift in Sources */,
+				B39D01712AEB0DFC00C61FB5 /* Explore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wasteof.money/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -430,13 +491,13 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "oren-lindsey.wasteof-money";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -456,6 +517,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wasteof.money/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -466,13 +528,13 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "oren-lindsey.wasteof-money";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -609,6 +671,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B3BC2E4E2AE8727900667BF3 /* XCRemoteSwiftPackageReference "RichText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NuPlay/RichText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+		B3EF4E3B2AEC46D000E613BB /* XCRemoteSwiftPackageReference "MarkupEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stevengharris/MarkupEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B3BC2E4F2AE8727900667BF3 /* RichText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3BC2E4E2AE8727900667BF3 /* XCRemoteSwiftPackageReference "RichText" */;
+			productName = RichText;
+		};
+		B3EF4E3C2AEC46D000E613BB /* MarkupEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3EF4E3B2AEC46D000E613BB /* XCRemoteSwiftPackageReference "MarkupEditor" */;
+			productName = MarkupEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3BC2E0E2AE466B400667BF3 /* Project object */;
 }
