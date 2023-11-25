@@ -1,3 +1,4 @@
+# Important: This code is deprecated. I'm making a new version: https://github.com/Oren-Lindsey/wasteof-ios
 # wasteof.money-ios
 [wasteof.money](https://wasteof.money) client for ios, made with SwiftUI
 
