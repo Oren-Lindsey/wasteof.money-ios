@@ -49,20 +49,29 @@ struct Homescreen: View {
             }
         } else {
             #if os(iOS)
-                TabView {
-                    Feed().tabItem {
-                        Label("Home", systemImage: "house")
-                    }.environmentObject(session).environmentObject(user)
-                    Explore().tabItem {
-                        Label("Explore", systemImage: "globe")
-                    }.environmentObject(session).environmentObject(user)
-                    YourAccount().tabItem {
-                        Label("Your Account", systemImage: "person")
-                    }.environmentObject(session).environmentObject(user)
-                    Messages().tabItem {
-                        Label("Messages", systemImage: "envelope")
-                    }.environmentObject(session).environmentObject(user).navigationTitle("Messages")
-                }
+            ZStack {
+                    TabView {
+                        Feed().tabItem {
+                            Label("Home", systemImage: "house")
+                        }.environmentObject(session).environmentObject(user)
+                        Explore().tabItem {
+                            Label("Explore", systemImage: "globe")
+                        }.environmentObject(session).environmentObject(user)
+                        YourAccount().tabItem {
+                            Label("Your Account", systemImage: "person")
+                        }.environmentObject(session).environmentObject(user)
+                        Messages().tabItem {
+                            Label("Messages", systemImage: "envelope")
+                        }.environmentObject(session).environmentObject(user).navigationTitle("Messages")
+                    }
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Spacer()
+                            PostEditor().environmentObject(session).environmentObject(user)
+                        }.padding().padding([.bottom],50)
+                    }
+            }
             #else
             NavigationStack {
                 Feed().tabItem {

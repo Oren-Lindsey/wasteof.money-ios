@@ -75,9 +75,9 @@ struct ContentView: View {
         }
         if loggedIn.li {
             if session.username != "" {
-                Homescreen().environmentObject(session).environmentObject(user).tint(color).onAppear() {
-                    getColor(username: session.username)
-                }
+                    Homescreen().environmentObject(session).environmentObject(user).tint(color).onAppear() {
+                        getColor(username: session.username)
+                    }
             } else {
                 ProgressView()
             }

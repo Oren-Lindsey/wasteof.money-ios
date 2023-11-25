@@ -20,7 +20,7 @@ struct Revision: Hashable, Codable {
 }
 struct PostPreview: View {
     let _id: String
-    let content: String
+    @State var content: String
     let time: Int
     let comments: Int
     @State var loves: Int
@@ -441,16 +441,15 @@ struct PostPreview: View {
         }*/
         struct ReportBody: Hashable, Codable {
             let reason: String
-            var type: String
+            let type: String
         }
         struct ReportResponse: Hashable, Codable {
             let ok: String
         }
-        let report = ReportBody(reason: reason, type: "none")
+        let report = ReportBody(reason: reason, type: "aaa")
         let finalBody = try? JSONEncoder().encode(report)
         request.httpBody = finalBody
         request.addValue(token, forHTTPHeaderField: "Authorization")
-        
         var res: ReportResponse = ReportResponse(ok: "no")
         let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             if let error = error {

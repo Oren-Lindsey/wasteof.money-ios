@@ -14,6 +14,7 @@
 		B39D01752AEB35E200C61FB5 /* YourAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01742AEB35E200C61FB5 /* YourAccount.swift */; };
 		B39D01772AEC041A00C61FB5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01762AEC041A00C61FB5 /* Post.swift */; };
 		B39D01792AEC2BC400C61FB5 /* CommentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D01782AEC2BC400C61FB5 /* CommentPreview.swift */; };
+		B3A914052B10FD01009BC911 /* PostEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A914042B10FD01009BC911 /* PostEditor.swift */; };
 		B3BC2E1A2AE466B400667BF3 /* wasteof_moneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E192AE466B400667BF3 /* wasteof_moneyApp.swift */; };
 		B3BC2E1C2AE466B400667BF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC2E1B2AE466B400667BF3 /* ContentView.swift */; };
 		B3BC2E1E2AE466B600667BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BC2E1D2AE466B600667BF3 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		B39D01742AEB35E200C61FB5 /* YourAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourAccount.swift; sourceTree = "<group>"; };
 		B39D01762AEC041A00C61FB5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B39D01782AEC2BC400C61FB5 /* CommentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentPreview.swift; sourceTree = "<group>"; };
+		B3A914042B10FD01009BC911 /* PostEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditor.swift; sourceTree = "<group>"; };
 		B3BC2E162AE466B400667BF3 /* wasteof.money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wasteof.money.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BC2E192AE466B400667BF3 /* wasteof_moneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasteof_moneyApp.swift; sourceTree = "<group>"; };
 		B3BC2E1B2AE466B400667BF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				B39D01782AEC2BC400C61FB5 /* CommentPreview.swift */,
 				B3EF4E392AEC46C000E613BB /* CommentEditor.swift */,
 				B37482DC2AF54C3A005B9DCD /* Messages.swift */,
+				B3A914042B10FD01009BC911 /* PostEditor.swift */,
 			);
 			path = wasteof.money;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				B39D01732AEB136500C61FB5 /* UserPreview.swift in Sources */,
 				B3BC2E492AE4775600667BF3 /* Authentication.swift in Sources */,
 				B3BC2E1A2AE466B400667BF3 /* wasteof_moneyApp.swift in Sources */,
+				B3A914052B10FD01009BC911 /* PostEditor.swift in Sources */,
 				B39D01712AEB0DFC00C61FB5 /* Explore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
